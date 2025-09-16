@@ -51,37 +51,31 @@ Run the script:
 ```bash
 ./password_generator.sh github.com
 ```
-##⚡ Usage
+⚡ Usage
 Basic Example
 ```bash
-Copy code
 python password_generator.py github.com
 ```
 You’ll be prompted for your master password and confirmation, then a password will be generated.
 
 Custom Length
 ```bash
-Copy code
 python password_generator.py github.com -l 24
 ```
 Exclude Digits or Symbols
 ```bash
-Copy code
 python password_generator.py twitter.com --no-digit --no-symbol
 ```
 Exclude Ambiguous Characters
 ```bash
-Copy code
 python password_generator.py gmail.com --no-ambiguous
 ```
 Debug Salt Construction
 ```bash
-Copy code
 python password_generator.py reddit.com --show-salt
 ```
 Copy to Clipboard
 ```bash
-Copy code
 python password_generator.py linkedin.com -c
 ```
 ⚠️ Requires pyperclip.
