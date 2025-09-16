@@ -33,12 +33,18 @@ Run the Python script:
 python password_generator.py --help
 ```
 ## Linux Users
-Option 1: Install system dependencies manually:
+
+Option 1:Make the shell scripts executable:
+```bash
+chmod +x install_deps.sh
+chmod +x password_generator.sh
+```
+Option 2: Install system dependencies manually:
 ```bash
 sudo apt update
 sudo apt install figlet toilet python3 python3-pip -y
 ```
-Option 2: Use the helper script to install dependencies automatically:
+Option 3: Use the helper script to install dependencies automatically:
 
 ```bash
 ./install_deps.sh
