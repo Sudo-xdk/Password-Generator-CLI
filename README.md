@@ -51,6 +51,7 @@ Run the script:
 ```bash
 ./password_generator.sh github.com
 ```
+---
 ⚡ Usage
 Basic Example
 ```bash
