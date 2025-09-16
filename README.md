@@ -23,7 +23,10 @@ Clone the repository:
 git clone https://github.com/Sudo-xdk/Password-Generator-CLI.git
 cd Password-Generator-CLI
 ```
-
+Install dependencies (optional, required for clipboard support):
+```
+pip install -r requirements.txt
+```
 (Optional) Install clipboard support:
 
 ```bash
