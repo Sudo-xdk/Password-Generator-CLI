@@ -1,1 +1,7 @@
+# System dependencies (Linux only):
+# sudo apt update
+# sudo apt install figlet toilet python3 python3-pip -y
+
+# Python packages
 pyperclip
+pyfiglet
